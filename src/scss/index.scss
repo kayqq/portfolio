@@ -1,0 +1,21 @@
+@import 'reset';
+
+@import '../components//App';
+
+body {
+    background-color: #f6f9fc;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'pnum';
+    font-variant-numeric: proportional-nums;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
